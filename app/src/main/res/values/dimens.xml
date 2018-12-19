@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="spinner_padding">8dp</dimen>
+    <dimen name="linear_padding">8dp</dimen>
+    <dimen name="text_city">40sp</dimen>
+    <dimen name="text_padding">16dp</dimen>
+    <dimen name="text_date">20sp</dimen>
+
+</resources>

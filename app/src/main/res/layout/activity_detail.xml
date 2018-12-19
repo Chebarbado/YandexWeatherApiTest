@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/cityNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_city"
+        android:textAlignment="center"
+        android:text="City"/>
+
+    <LinearLayout
+        android:padding="@dimen/linear_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="fill_horizontal">
+
+        <TextView
+            android:padding="@dimen/spinner_padding"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Today: "
+            android:textSize="@dimen/text_date" />
+
+        <TextView
+            android:id="@+id/weatherTodayTV"
+            android:padding="@dimen/spinner_padding"
+            android:gravity="end"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="20°"
+            android:textSize="@dimen/text_city" />
+    </LinearLayout>
+    <LinearLayout
+        android:padding="@dimen/linear_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="fill_horizontal">
+
+        <TextView
+            android:padding="@dimen/spinner_padding"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tomorrow: "
+            android:textSize="@dimen/text_date" />
+
+        <TextView
+            android:padding="@dimen/spinner_padding"
+            android:gravity="end"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="20°"
+            android:textSize="@dimen/text_city" />
+    </LinearLayout>
+    <LinearLayout
+        android:padding="@dimen/linear_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="fill_horizontal">
+
+        <TextView
+            android:layout_weight="1"
+            android:padding="@dimen/spinner_padding"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next three days: "
+            android:textSize="@dimen/text_date" />
+
+        <TextView
+            android:padding="@dimen/spinner_padding"
+            android:gravity="end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20°"
+            android:textSize="20sp" />
+        <TextView
+            android:padding="@dimen/spinner_padding"
+            android:gravity="end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20°"
+            android:textSize="20sp" />
+        <TextView
+            android:padding="@dimen/spinner_padding"
+            android:gravity="end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20°"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"/>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">YandexWeatherApiTest</string>
+    <string name="celsiy">°</string>
+
+    <string-array name="countries">
+        <item>Russia</item>
+        <item>Other countries</item>
+    </string-array>
+    <string-array name="date">
+        <item>Today</item>
+        <item>Tomorrow</item>
+    </string-array>
+</resources>
